@@ -10,7 +10,7 @@ namespace Sandwich
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Sandy boiz");
+            Console.WriteLine("Sandy boizz");
             Console.ReadKey();
         }
     }
