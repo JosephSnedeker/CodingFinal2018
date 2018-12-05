@@ -3,21 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChanger : MonoBehaviour {
+public class SceneChanger : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             SceneManager.LoadScene("SelectSandwich");
         }
-        if(Input.anyKey)
+        if (Input.anyKey)
         {
             SceneManager.LoadScene("SelectSandwich");
         }
