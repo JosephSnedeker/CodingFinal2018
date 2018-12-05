@@ -13,7 +13,7 @@ namespace Sandwich
     class Sandwich
     {
        
-        public string bread;
+        public Bread bread;
         public List<Meat> meat;
         public List<Veggies> veggies;
         public List<Sauses> sauses;
