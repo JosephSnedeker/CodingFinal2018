@@ -14,7 +14,7 @@ public static class Conversions
     };
     public static Dictionary<Veggies, int> VEGGIES_TO_CALORIES = new Dictionary<Veggies, int>()
     {
-        {Veggies.Tomatoes, 5}, {Veggies.SweetPeppers, 15}, {Veggies.Spinach, 0}, {Veggies.Pickles, 0}, {Veggies.Onions, 0}, {Veggies.Olives, 0}, {Veggies.Mushrooms, 5}, {Veggies.Lettuce, 0}, {Veggies.JalapenoPeppers, 0}, {Veggies.GreenPeppers, 0}, {Veggies.GreenChilies, 0}, {Veggies.Cucumbers, 0}, {Veggies.Carrots, 5} {Veggies.BananaPeppers, 0}, {Veggies.Avacado, 60}
+        {Veggies.Tomatoes, 5}, {Veggies.SweetPeppers, 15}, {Veggies.Spinach, 0}, {Veggies.Pickles, 0}, {Veggies.Onions, 0}, {Veggies.Olives, 0}, {Veggies.Mushrooms, 5}, {Veggies.Lettuce, 0}, {Veggies.JalapenoPeppers, 0}, {Veggies.GreenPeppers, 0}, {Veggies.GreenChilies, 0}, {Veggies.Cucumbers, 0}, {Veggies.Carrots, 5}, {Veggies.BananaPeppers, 0}, {Veggies.Avacado, 60}
     };
     public static Dictionary<Sauses, int> SAUSCES_TO_CALORIES = new Dictionary<Sauses, int>()
     {
