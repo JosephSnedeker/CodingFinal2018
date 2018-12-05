@@ -7,7 +7,7 @@ using System.Text;
 
 
 public enum Bread { NineGrainWheat, NineGrainHoneyOat, Italian, ItalianHerbsAndCheese, FlatBread }
-public enum Meat { Ham, Turkey, Tuna, Salami, Chicken, Pepperoni, Meatballs, RoastBeef, Steak }
+public enum Meat { Ham, Turkey, Tuna, ColdCutComboMeats, Chicken, SubwayClubMeats, Meatballs, RoastBeef, Steak }
 public enum Veggies { BananaPeppers, Cucumbers, GreenPeppers, JalapenoPeppers, Lettuce, Onions, Pickles, Olives, Spinach, Tomatoes, Avacado, Carrots, GreenChilies, Mushrooms, SweetPeppers }
 public enum Sauses { ChipotleSouthwestSause, Guacamole, LightMayo, Mayo, Mustard, Oil, Ranch, Caesar, SweetOnionSauce, Vinaigrette, Vinegar, BBQSause, BuffaloSause, CreamyItalian, CreamySriracha }
 class Sandwich
