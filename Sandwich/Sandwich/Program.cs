@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace Sandwich
 {
-    class Program
+    class Sandwich
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Sandy boiz");
-            Console.ReadKey();
-        }
+       
     }
 }

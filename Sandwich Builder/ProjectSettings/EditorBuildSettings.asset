@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/TouchToStart.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/SelectSandwich.unity
+    guid: 945d907e53da7974e9f5c2a36235ecdb
+  - enabled: 1
+    path: Assets/Scenes/Pay.unity
+    guid: ce2165dfe28a1894a9d63d787db7255f
+  - enabled: 1
+    path: Assets/Scenes/ModifySandwich.unity
+    guid: 444f2aa12d7bb3f41b23f41182cc447b
   m_configObjects: {}
