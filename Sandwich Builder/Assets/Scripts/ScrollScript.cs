@@ -12,7 +12,7 @@ public class ScrollScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Vector3 placeholder = transform.position;
-        placeholder.y += Input.GetAxis("Mouse ScrollWheel");
+        placeholder.y -= Input.GetAxis("Mouse ScrollWheel") * 8;
         transform.position = placeholder;
 	}
 }
