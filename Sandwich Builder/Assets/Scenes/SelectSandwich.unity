@@ -295,6 +295,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 0
+    meat: 05000000
+    veggies: 010000000200000004000000050000000800000009000000
+    sauses: 
+    calorieCount: 310
 --- !u!1 &174469260
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +469,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 2
+    meat: 0400000009000000
+    veggies: 02000000040000000500000009000000
+    sauses: 06000000
+    calorieCount: 590
 --- !u!1 &229688278
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,6 +520,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 0
+    meat: 07000000
+    veggies: 010000000400000002000000050000000900000008000000
+    sauses: 
+    calorieCount: 320
 --- !u!1 &290403632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1291,6 +1309,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 0
+    meat: 04000000
+    veggies: 020000000100000004000000050000000800000009000000
+    sauses: 
+    calorieCount: 350
 --- !u!1 &442289967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,6 +1360,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 0
+    meat: 00000000
+    veggies: 010000000200000004000000050000000800000009000000
+    sauses: 
+    calorieCount: 290
 --- !u!1 &508906389
 GameObject:
   m_ObjectHideFlags: 0
@@ -1819,6 +1849,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 3
+    meat: 0a0000000b000000
+    veggies: 
+    sauses: 
+    calorieCount: 730
 --- !u!1 &592962935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,6 +1969,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 2
+    meat: 03000000
+    veggies: 0100000002000000040000000500000009000000
+    sauses: 
+    calorieCount: 340
 --- !u!1 &624742473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1978,6 +2020,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 2
+    meat: 0a0000000b000000
+    veggies: 0100000002000000040000000500000009000000
+    sauses: 
+    calorieCount: 470
 --- !u!1 &677949708
 GameObject:
   m_ObjectHideFlags: 0
@@ -2374,6 +2422,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 0
+    meat: 01000000
+    veggies: 0100000002000000040000000500000009000000
+    sauses: 
+    calorieCount: 280
 --- !u!1 &793185856
 GameObject:
   m_ObjectHideFlags: 0
@@ -2419,6 +2473,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 2
+    meat: 000000000b0000000a000000
+    veggies: 0100000002000000040000000500000009000000
+    sauses: 
+    calorieCount: 390
 --- !u!1 &803354748
 GameObject:
   m_ObjectHideFlags: 0
@@ -2616,6 +2676,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 2
+    meat: 02000000
+    veggies: 0100000002000000040000000500000009000000
+    sauses: 
+    calorieCount: 470
 --- !u!1 &819718520
 GameObject:
   m_ObjectHideFlags: 0
@@ -4283,6 +4349,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 2
+    meat: 08000000
+    veggies: 0200000005000000
+    sauses: 
+    calorieCount: 360
 --- !u!1 &1254057601
 GameObject:
   m_ObjectHideFlags: 0
@@ -4473,6 +4545,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 3
+    meat: 06000000
+    veggies: 
+    sauses: 
+    calorieCount: 730
 --- !u!1 &1317211554
 GameObject:
   m_ObjectHideFlags: 0
@@ -6200,6 +6278,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 2
+    meat: 06000000
+    veggies: 
+    sauses: 
+    calorieCount: 450
 --- !u!1 &1836244891
 GameObject:
   m_ObjectHideFlags: 0
@@ -6457,6 +6541,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 0
+    meat: 04000000
+    veggies: 010000000200000004000000050000000800000009000000
+    sauses: 080000000f000000
+    calorieCount: 370
 --- !u!1 &1878677488
 GameObject:
   m_ObjectHideFlags: 0
@@ -6910,6 +7000,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 0
+    meat: 04000000
+    veggies: 010000000400000005000000090000000800000002000000
+    sauses: 
+    calorieCount: 320
 --- !u!1 &2118501624
 GameObject:
   m_ObjectHideFlags: 0
@@ -7078,3 +7174,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d71463755964a94f8b4cc961dda341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sandwich:
+    bread: 0
+    meat: 
+    veggies: 010000000200000004000000050000000800000009000000
+    sauses: 
+    calorieCount: 230

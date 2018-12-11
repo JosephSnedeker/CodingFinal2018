@@ -7,9 +7,9 @@ using System.Text;
 
 
 public enum Bread { NineGrainWheat, NineGrainHoneyOat, Italian, ItalianHerbsAndCheese, FlatBread }
-public enum Meat { Ham, Turkey, Tuna, ColdCutComboMeats, Chicken, SubwayClubMeats, Meatballs, RoastBeef, Steak }
+public enum Meat { Ham, Turkey, Tuna, ColdCutComboMeats, Chicken, SubwayClubMeats, Meatballs, RoastBeef, Steak, Bacon, Pepperoni, Salami }
 public enum Veggies { BananaPeppers, Cucumbers, GreenPeppers, JalapenoPeppers, Lettuce, Onions, Pickles, Olives, Spinach, Tomatoes, Avacado, Carrots, GreenChilies, Mushrooms, SweetPeppers }
-public enum Sauses { ChipotleSouthwestSause, Guacamole, LightMayo, Mayo, Mustard, Oil, Ranch, Caesar, SweetOnionSauce, Vinaigrette, Vinegar, BBQSause, BuffaloSause, CreamyItalian, CreamySriracha }
+public enum Sauses { ChipotleSouthwestSause, Guacamole, LightMayo, Mayo, Mustard, Oil, Ranch, Caesar, SweetOnionSauce, Vinaigrette, Vinegar, BBQSause, BuffaloSause, CreamyItalian, CreamySriracha, Teriyaki }
 [System.Serializable]
 public class Sandwich
 {
@@ -20,15 +20,16 @@ public class Sandwich
     public List<Sauses> sauses;
     public int calorieCount = 0;
     
-    public Sandwich(Bread bread, List<Meat> meat, List<Veggies> veggies, List<Sauses> sauses)
+    public Sandwich(Bread bread, List<Meat> meat, List<Veggies> veggies, List<Sauses> sauses, int calorieCount)
 
     {
-        calorieCount += Conversions.BREAD_TO_CALORIES[bread];
+        
         
         this.bread = bread;
         this.meat = meat;
         this.veggies = veggies;
         this.sauses = sauses;
+        this.calorieCount = calorieCount;
 
     }
     public Sandwich() { }
