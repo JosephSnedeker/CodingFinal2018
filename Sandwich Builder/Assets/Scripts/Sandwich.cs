@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine.Sprites;
+using UnityEngine;
 
 
 
@@ -13,14 +15,14 @@ public enum Sauses { ChipotleSouthwestSause, Guacamole, LightMayo, Mayo, Mustard
 [System.Serializable]
 public class Sandwich
 {
-    
+    public Sprite sandwichPic;  
     public Bread  bread;
     public List<Meat> meat;
     public List<Veggies> veggies; 
     public List<Sauses> sauses;
     public int calorieCount = 0;
     
-    public Sandwich(Bread bread, List<Meat> meat, List<Veggies> veggies, List<Sauses> sauses, int calorieCount)
+    public Sandwich(Bread bread, List<Meat> meat, List<Veggies> veggies, List<Sauses> sauses, int calorieCount, Sprite sandwichPic)
 
     {
         
@@ -30,6 +32,7 @@ public class Sandwich
         this.veggies = veggies;
         this.sauses = sauses;
         this.calorieCount = calorieCount;
+        this.sandwichPic = sandwichPic;
 
     }
     public Sandwich() { }
