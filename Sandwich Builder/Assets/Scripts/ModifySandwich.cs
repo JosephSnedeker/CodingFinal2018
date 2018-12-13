@@ -15,6 +15,6 @@ public class ModifySandwich : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        GetComponent<SpriteRenderer>().sprite = sandwichToModify.sandwichPic;
 	}
 }
