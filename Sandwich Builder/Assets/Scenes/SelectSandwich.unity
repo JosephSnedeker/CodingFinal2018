@@ -1514,7 +1514,7 @@ MonoBehaviour:
   sandwich:
     sandwichPic: {fileID: 0}
     bread: 0
-    meat: 
+    meat: 00000000
     veggies: 
     sauses: 
     calorieCount: 0
