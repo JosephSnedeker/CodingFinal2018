@@ -6,12 +6,13 @@ using UnityEngine.SceneManagement;
 public class ClickSandwich : MonoBehaviour {
     [SerializeField]
     static Sandwich sandwich = new Sandwich();
-    public Sandwich sandwichChosen;
+    
 
     public void onClick()
     {
+        GameManager.Instance.selectedSandwich = sandwich;
         SceneManager.LoadScene("ModifySandwich");        
-        sandwichChosen = sandwich;
-        Debug.Log("sandwich chosen is " + sandwichChosen.bread);
+        
+        
     }
 }
