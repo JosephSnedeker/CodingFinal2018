@@ -14,5 +14,7 @@ public class ScrollScript : MonoBehaviour {
         Vector3 placeholder = transform.position;
         placeholder.y -= Input.GetAxis("Mouse ScrollWheel") * 8;
         transform.position = placeholder;
+
+        
 	}
 }
