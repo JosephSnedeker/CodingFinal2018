@@ -9,7 +9,7 @@ public class ModifySandwich : MonoBehaviour {
 	void Start () {
         
         sandwichToModify = GameManager.Instance.selectedSandwich;
-        Debug.Log(sandwichToModify.bread);
+        
 
 	}
 	
