@@ -5,14 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class ClickSandwich : MonoBehaviour {
     [SerializeField]
-    static Sandwich sandwich = new Sandwich();
+    Sandwich sandwich = new Sandwich();
     
 
     public void onClick()
     {
+
         GameManager.Instance.selectedSandwich = sandwich;
-        SceneManager.LoadScene("ModifySandwich");        
+        SceneManager.LoadScene("ModifySandwich");
         
-        
+
     }
 }
