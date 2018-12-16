@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ModifySandwich.unity
     guid: 444f2aa12d7bb3f41b23f41182cc447b
+  - enabled: 1
+    path: Assets/Scenes/BreadSelect.unity
+    guid: 00581929d8c681d43bd107a8bcc11378
+  - enabled: 1
+    path: Assets/Scenes/SauceSelect.unity
+    guid: 54832ca39706e964c84de003ea70e02e
+  - enabled: 1
+    path: Assets/Scenes/The End Game.unity
+    guid: e7663fec8eec8ff49aa45bfc25ee859c
+  - enabled: 1
+    path: Assets/Scenes/VeggieSelect.unity
+    guid: 1a58d56f74a612e4ba34aa677a2067c0
   m_configObjects: {}
