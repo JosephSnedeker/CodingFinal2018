@@ -349,6 +349,7 @@ MonoBehaviour:
     veggies: 010000000200000004000000050000000800000009000000
     sauses: 
     calorieCount: 310
+    price: 4.75
 --- !u!1 &174469260
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,6 +625,7 @@ MonoBehaviour:
     veggies: 02000000040000000500000009000000
     sauses: 06000000
     calorieCount: 590
+    price: 4.75
 --- !u!1 &229688278
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,6 +678,7 @@ MonoBehaviour:
     veggies: 010000000200000004000000050000000800000009000000
     sauses: 
     calorieCount: 320
+    price: 4.75
 --- !u!1 &290403632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,6 +1469,7 @@ MonoBehaviour:
     veggies: 010000000200000004000000050000000900000008000000
     sauses: 
     calorieCount: 350
+    price: 4.75
 --- !u!1 &442289967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,6 +1522,7 @@ MonoBehaviour:
     veggies: 010000000200000004000000050000000800000009000000
     sauses: 
     calorieCount: 290
+    price: 3.75
 --- !u!1 &508906389
 GameObject:
   m_ObjectHideFlags: 0
@@ -2008,6 +2013,7 @@ MonoBehaviour:
     veggies: 
     sauses: 
     calorieCount: 730
+    price: 5
 --- !u!1 &592962935
 GameObject:
   m_ObjectHideFlags: 0
@@ -2129,6 +2135,7 @@ MonoBehaviour:
     veggies: 0100000002000000040000000500000009000000
     sauses: 
     calorieCount: 340
+    price: 3.75
 --- !u!1 &624742473
 GameObject:
   m_ObjectHideFlags: 0
@@ -2181,6 +2188,7 @@ MonoBehaviour:
     veggies: 0100000002000000040000000500000009000000
     sauses: 
     calorieCount: 470
+    price: 3.75
 --- !u!1 &677949708
 GameObject:
   m_ObjectHideFlags: 0
@@ -2584,6 +2592,7 @@ MonoBehaviour:
     veggies: 0100000002000000040000000500000009000000
     sauses: 
     calorieCount: 280
+    price: 4.25
 --- !u!1 &793185856
 GameObject:
   m_ObjectHideFlags: 0
@@ -2636,6 +2645,7 @@ MonoBehaviour:
     veggies: 0100000002000000040000000500000009000000
     sauses: 
     calorieCount: 390
+    price: 4.25
 --- !u!1 &803354748
 GameObject:
   m_ObjectHideFlags: 0
@@ -2840,6 +2850,7 @@ MonoBehaviour:
     veggies: 0100000002000000040000000500000009000000
     sauses: 
     calorieCount: 470
+    price: 4.25
 --- !u!1 &819718520
 GameObject:
   m_ObjectHideFlags: 0
@@ -4514,6 +4525,7 @@ MonoBehaviour:
     veggies: 0200000005000000
     sauses: 
     calorieCount: 360
+    price: 4.75
 --- !u!1 &1254057601
 GameObject:
   m_ObjectHideFlags: 0
@@ -4711,6 +4723,7 @@ MonoBehaviour:
     veggies: 
     sauses: 
     calorieCount: 730
+    price: 5
 --- !u!1 &1317211554
 GameObject:
   m_ObjectHideFlags: 0
@@ -6552,6 +6565,7 @@ MonoBehaviour:
     veggies: 
     sauses: 
     calorieCount: 450
+    price: 3.75
 --- !u!1 &1836244891
 GameObject:
   m_ObjectHideFlags: 0
@@ -6816,6 +6830,7 @@ MonoBehaviour:
     veggies: 010000000200000004000000050000000800000009000000
     sauses: 080000000f000000
     calorieCount: 370
+    price: 4.75
 --- !u!1 &1878677488
 GameObject:
   m_ObjectHideFlags: 0
@@ -7276,6 +7291,7 @@ MonoBehaviour:
     veggies: 010000000200000004000000050000000800000009000000
     sauses: 
     calorieCount: 320
+    price: 4.25
 --- !u!1 &2118501624
 GameObject:
   m_ObjectHideFlags: 0
@@ -7451,3 +7467,4 @@ MonoBehaviour:
     veggies: 010000000200000004000000050000000800000009000000
     sauses: 
     calorieCount: 230
+    price: 3.75
