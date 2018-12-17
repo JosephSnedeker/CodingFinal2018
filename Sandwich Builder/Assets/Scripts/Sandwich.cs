@@ -22,6 +22,7 @@ public class Sandwich
     public List<Sauses> sauses;
     public int calorieCount = 0;
     public float price = 0f;
+    public string name = "";
     
     public Sandwich(Bread bread, List<Meat> meat, List<Veggies> veggies, List<Sauses> sauses, int calorieCount, float price, Sprite sandwichPic)
 

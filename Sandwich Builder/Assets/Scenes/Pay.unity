@@ -2031,6 +2031,7 @@ MonoBehaviour:
     veggies: 
     sauses: 
     calorieCount: 0
+    price: 0
 --- !u!212 &1116495324
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2518,6 +2519,7 @@ GameObject:
   - component: {fileID: 1360085406}
   - component: {fileID: 1360085408}
   - component: {fileID: 1360085407}
+  - component: {fileID: 1360085409}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2555,7 +2557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2564,12 +2566,12 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MinSize: 5
+    m_MaxSize: 50
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -2582,6 +2584,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1360085405}
+--- !u!114 &1360085409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1360085405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7242048b022794499ccf90da7a45487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1525355902
 GameObject:
   m_ObjectHideFlags: 0
