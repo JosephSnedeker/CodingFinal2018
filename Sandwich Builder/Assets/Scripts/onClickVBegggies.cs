@@ -11,6 +11,14 @@ public class onClickVBegggies : MonoBehaviour
 
     public void onClick()
     {
-        GameManager.Instance.selectedSandwich.veggies.Add(veggie);
+        if (!GameManager.Instance.selectedSandwich.veggies.Contains(veggie))
+        {
+            GameManager.Instance.selectedSandwich.veggies.Add(veggie);
+        }
+        else if (GameManager.Instance.selectedSandwich.veggies.Contains(veggie))
+        {
+            GameManager.Instance.selectedSandwich.veggies.Remove(veggie);
+        }
+        
     }
 }
