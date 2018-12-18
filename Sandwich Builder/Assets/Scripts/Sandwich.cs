@@ -24,7 +24,7 @@ public class Sandwich
     public float price = 0f;
     public string name = "";
     
-    public Sandwich(Bread bread, List<Meat> meat, List<Veggies> veggies, List<Sauses> sauses, int calorieCount, float price, Sprite sandwichPic)
+    public Sandwich(Bread bread, List<Meat> meat, List<Veggies> veggies, List<Sauses> sauses, int calorieCount, float price, string name, Sprite sandwichPic)
 
     {
         
@@ -35,6 +35,7 @@ public class Sandwich
         this.sauses = sauses;
         this.calorieCount = calorieCount;
         this.price = price;
+        this.name = name;
         this.sandwichPic = sandwichPic;
 
     }
