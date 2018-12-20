@@ -20,11 +20,11 @@ public class Sandwich
     public List<Meat> meat;
     public List<Veggies> veggies; 
     public List<Sauses> sauses;
-    public int calorieCount = 0;
+    public string calorieCount = "";
     public float price = 0f;
     public string name = "";
     
-    public Sandwich(Bread bread, List<Meat> meat, List<Veggies> veggies, List<Sauses> sauses, int calorieCount, float price, string name, Sprite sandwichPic)
+    public Sandwich(Bread bread, List<Meat> meat, List<Veggies> veggies, List<Sauses> sauses, string calorieCount, float price, string name, Sprite sandwichPic)
 
     {
         
