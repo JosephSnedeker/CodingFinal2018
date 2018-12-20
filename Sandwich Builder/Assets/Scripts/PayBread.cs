@@ -3,17 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CaloriesinPay : MonoBehaviour {
+public class PayBread : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-     
-        string calories = GameManager.Instance.selectedSandwich.calorieCount;
-        GetComponent<Text>().text = calories;
-    }
+		
+	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+        GetComponent<Text>().text = GameManager.Instance.selectedSandwich.bread.ToString();
 	}
 }

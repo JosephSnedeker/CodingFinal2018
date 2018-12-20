@@ -10,5 +10,6 @@ public class DoneBread : MonoBehaviour {
     public void onClick()
     {
         SceneManager.LoadScene("ModifySandwich");
+        GameManager.Instance.selectedSandwich.bread = bread;
     }
 }
